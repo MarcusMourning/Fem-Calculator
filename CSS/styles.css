@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+.calculator {
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+.screen {
+    color: white;
+    font-size: 40px;
+    font-family: "Goldman";
+    text-align: right;
+    padding: 20px 5px;
+}
+
+.calc-button {
+    background-color: #d8d9db;
+    color: black;
+    height: 100px;
+    width: 24.5%;
+    border-radius: 0;
+    font-size: 20px;
+    font-family: "Goldman";
+    cursor: pointer;
+}
+
+.calc-button:hover {
+    background-color: #B5B7B6;
+}
+
+.calc-button:active {
+    background-color: #707070;
+}
+
+.calc-row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.double {
+    width: 49.7%;
+}
+
+.triple {
+    width: 74.8%;
+}
+
+.calc-button:last-child {
+    background-color: green;
+    color: white;
+}
+
+.calc-button:last-child:hover {
+    background-color: #B5B7B6;
+}
+
+.calc-button:last-child:active {
+    background-color: #707070;
+}
+
+.calc-button-row:last-child {
+    padding-bottom: 0;
+}
